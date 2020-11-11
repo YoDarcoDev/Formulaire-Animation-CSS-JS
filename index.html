@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire avec Animation JSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <div class="containerGlobal">
+
+        <div class="panneauGauche">
+            <h1><strong>Techno</strong> Stock</h1>
+            
+            <form class="formBlock">
+                
+                <h3>Identifiez-vous</h3>
+                
+                <div class="formGroupe">
+                    <label for="utilisateur">Utilisateur</label>
+                    <input type="text" required maxlength="16" id="utilisateur">
+                </div>
+                
+                <div class="formGroupe">
+                    <label for="password">Mot de passe</label>
+                    <input type="password" required maxlength="16" id="password">
+                </div>
+                
+                <div class="formGroupe">
+                    <input type="submit" value="LOGIN" class="buttonSub">
+                </div>
+                
+                <div class="mdpPerdu">
+                    <a href="#">Mot de passe perdu ?</a>
+                </div>
+                
+            </form>
+        </div>
+
+
+        <div class="panneauDroit">
+            <div class="illustration">
+                <img src="ressources/illustration.svg" alt="illustration" class="image">
+            </div>
+            <h2>Partez à la conquête du ciel</h2>
+        </div>
+
+            
+            
+    </div>
+        
+
+    <script src="app.js"></script>
+
+</body>
+</html>
