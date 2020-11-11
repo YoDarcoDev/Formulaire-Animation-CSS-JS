@@ -25,3 +25,6 @@ for (let i =0; i < inputFields.length; i++) {
  * Si cette valeur est différente de vide on rajoute au parent la classe animation
  * Sinon on lui retire l'animation
  */
+
+
+ 
